@@ -40,7 +40,7 @@ namespace ConsoleHero
 
         private void ShowOptions()
         {
-            string manyChoices = Options.Count == 1 ? "s" : "";
+            string manyChoices = Options.Count == 1 ? "" : "s";
             Console.WriteLine($"You have {Options.Count} choice{manyChoices} :");
             foreach (var pair in Options)
             {
