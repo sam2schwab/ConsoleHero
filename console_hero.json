@@ -1,0 +1,43 @@
+{
+    "Title" : "Console Hero playtest",
+    "Pages" : {
+        "-1" : {
+            "Title" : "GAME OVER",
+            "Text" : "Unfortunately, you died!",
+            "Options" : {
+                "n" : {
+                    "Text" : "Start over",
+                    "PageNb" : "1"
+                }
+            }
+        },
+        "1" : {
+            "Title" : "The adventure begins!",
+            "Text" : "This is the first page of the book",
+            "Options" : {
+                "n" : {
+                    "Text" : "Go to page 2",
+                    "PageNb" : "2"
+                },
+                "q" : {
+                    "Text" : "Jump into a ravine",
+                    "PageNb" : "-1"
+                }
+            }
+        },
+        "2" : {
+            "Title" : "The adventure continues",
+            "Text" : "Good Job, you reached page 2! You won!",
+            "Options" : {
+                "y" : {
+                    "Text" : "Yay!",
+                    "Key" : "Y"
+                },
+                "r" : {
+                    "Text" : "Actually, i want to explore that ravine now",
+                    "PageNb" : "-1"
+                }
+            }
+        }
+    }
+}
